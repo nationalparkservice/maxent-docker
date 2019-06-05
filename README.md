@@ -97,5 +97,5 @@ If a full simulation is not necessary (only a few species are wanted to be updat
   * This creates a dump to `mountdata/output` of species specified by `config.txt` in `mountdata`
 * `./npsdocker.sh -u pprovins sk.ThisIsAPrivateAccessToken -c run`
   * This uploads the output to mapbox for the simulation over species specified by `config.txt` in `mountdata`
-* `./npsdocker.sh -u pprovins sk.ThisIsAPrivateAccessToken -c run`
+* `./npsdocker.sh -u pprovins sk.ThisIsAPrivateAccessToken -c -d run`
   * This uploads the output to mapbox for the simulation over species specified by `config.txt` in `mountdata` and creates a dump as well.
