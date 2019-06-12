@@ -8,6 +8,7 @@ This repository serves as the hub for Docker related files to setup the backend 
 ## Quick Start
 #### Build
 `./npsdocker.sh build`
+'Windows Powershell: docker build ['folder where Dockerfile is]
 
 #### Run
 `./npsdocker.sh run`
