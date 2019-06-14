@@ -13,7 +13,7 @@
 
 ### Obtaining Main.exe
 
-Current release of the executable can be found at the releases tab at the [maxent docker github repo](https://github.com/nationalparkservice/maxent-docker).
+Current release of the executable can be found at the releases tab at the [maxent docker github repo](https://github.com/nationalparkservice/maxent-docker/releases).
 
 ### Build Button
 
