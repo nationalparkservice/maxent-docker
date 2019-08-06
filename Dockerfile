@@ -30,7 +30,7 @@ RUN mkdir /app/data
 # Handle fetching the environmental layers
 RUN cd /app/npmap-species/backend/maxent/libfdr/src/ && make
 RUN cd /app/npmap-species/backend/maxent && make
-RUN cd /app/npmap-species/atbirecords && python separate.py JUST_COORDS
+#RUN cd /app/npmap-species/atbirecords && python separate.py JUST_COORDS
 
 # Change config_all to other configurations if you need to in do_run.sh
 RUN cd /app/npmap-species/backend/maxent/ && ./clean.sh 
